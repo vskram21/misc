@@ -5,7 +5,7 @@ algo = []
 salt = []
 hashedpass = []
 algosalt = []
-worklist = ["hakc","Put in ur pass here or map it to dictionary file"]
+worklist = ["hachme dict","Put in ur pass here or map it to dictionary file"]
 def crack(algos, hashs):
     checkfor=algos+hashs
     for i in range (0,2):
