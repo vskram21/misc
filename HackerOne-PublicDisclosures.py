@@ -1,6 +1,8 @@
 import pymongo
 import requests
-
+'''
+This scripts get the list of all publich disclosures and dumps it into MongoDB
+'''
 def get_items(cursor):
 	for item in cursor:
 		print (item)
